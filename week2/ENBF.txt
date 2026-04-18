@@ -1,0 +1,14 @@
+program    = { statement } ;
+statement  = let_stmt | fn_stmt | if_stmt | return_stmt | expression_stmt ;
+
+let_stmt   = "let" identifier ":" type "=" expression ";" ;
+fn_stmt    = "fn" identifier "(" [ params ] ")" "->" type "{" { statement } "}" ;
+if_stmt    = "if" "(" expression ")" "{" { statement } "}" [ "else" "{" { statement } "}" ] ;
+return_stmt= "return" expression ";" ;
+
+expression = term { ("+" | "-") term } ;
+term       = factor { ("*" | "/") factor } ;
+factor     = identifier | number | "(" expression ")" | call_expr ;
+call_expr  = identifier "(" [ args ] ")" ;
+
+type       = "int" | "float" | "string" | "bool" ;
