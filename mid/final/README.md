@@ -1,5 +1,5 @@
 # Week1
-https://github.com/kz-17/sp/tree/main/week1
+https://github.com/kz-17/sp/tree/main/week1  
 對話網址:https://gemini.google.com/share/continue/876e7611da4f
 ## 1. while 處理程式碼之設計原理
 在編譯器的世界裡，while 運作的本質就是**「條件檢查」與「往回跳轉」  
@@ -25,7 +25,7 @@ https://github.com/kz-17/sp/tree/main/week1
 這是最關鍵的部分。VM 維護了一個 stack[1000]，每一層都是一個 Frame（堆疊幀）
 
 # week2
-https://github.com/kz-17/sp/tree/main/week2
+https://github.com/kz-17/sp/tree/main/week2  
 對話紀錄: https://gemini.google.com/share/ae1c8880992c
 ## 語言目標與功能設計
 - 目標：教學用途，語法接近 Python 但具備顯式的類型標記。
@@ -53,11 +53,11 @@ python app.py
 - 用戶回饋實際溫度，系統自動計算校正值修正模型
 
 # Week4
-https://github.com/kz-17/sp/tree/main/weak4
+
 https://github.com/kz-17/sp/tree/main/weak4
 
 # Week5
-https://github.com/kz-17/sp/tree/main/HW5
+https://github.com/kz-17/sp/tree/main/HW5  
 使用OpenCode  
 1. thread-concept.md	Thread 概念說明文件（Process vs Thread、同步問題、經典三大問題介紹）
 2. bank_simulation.c	銀行存提款模擬 — 2 threads 各存提 10 萬次，用 Mutex 確保餘額正確
